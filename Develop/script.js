@@ -10,7 +10,7 @@ function generatePassword() {
     }
     // Invalid password length prompts
     // Invalid length prompt
-     else if (pwlength < 8 || pwlength > 128 ) {
+    else if (pwlength < 8 || pwlength > 128 ) {
         alert ("Please enter a character number ranging between 8 and 128.");
         return generatePassword();
     // Invalid/non-number prompt
@@ -35,7 +35,7 @@ function generatePassword() {
     }
 
     // Password character letters for character types
-    if (lowcase == true) {
+    if (lowCase == true) {
         lowCase = "abcdefghijklmnopqrstuvwxyz"
     } else {
         lowCase = ""
@@ -43,7 +43,7 @@ function generatePassword() {
     if (upCase == true) {
         upCase = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     } else {
-        upCase = ''
+        upCase = ""
     }
     if (numCase == true) {
         numCase = "0123456789"
@@ -51,11 +51,20 @@ function generatePassword() {
         numCase = ""
     }
     if (specCase == true) {
-        "!#$%&'()*+,-./:;<=>?@[^_`{|}~'"
+        specCase = "!#$%&'()*+,-./:;<=>?@[^_`{|}~'"
     } else { 
-        SpecCase ="" 
+        SpecCase = ""
     }
 
+    var ranCase = lowCase + upCase + numCase + specCase;
+
+    var password = "";
+    for (var i = 0; i <pwlength; i++) {
+        var ranvar = ranCase[Math.floor(Math.random() * ranCase.length)];
+        password += ranvar;
+    }
+
+    return password;
 }
 
 // Get references to the #generate element
