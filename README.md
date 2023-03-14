@@ -23,3 +23,5 @@ This webpage was created with the help of tutor, Julio Valdez, as well as variou
 
 [MDN Web Docs Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
+## License
+MIT License 
