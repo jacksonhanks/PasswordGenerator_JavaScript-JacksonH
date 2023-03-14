@@ -13,13 +13,13 @@ This webpage can also be accessed by the deployed aapplication with the followin
 ## Credits
 This webpage was created with the help of tutor, Julio Valdez, as well as various third party attributes linked below.
 
-[W3Schools If, Else] (https://www.w3schools.com/java/java_conditions.asp)
+[W3Schools If, Else](https://www.w3schools.com/java/java_conditions.asp)
 
-[Special Charactrers Page] (https://owasp.org/www-community/password-special-characters)
+[Special Charactrers Page](https://owasp.org/www-community/password-special-characters)
 
-[MDN Web Docs Variables] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
+[MDN Web Docs Variables](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/var)
 
-[MDN Web Docs Strings] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#instance_methods)
+[MDN Web Docs Strings](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String#instance_methods)
 
-[MDN Web Docs Functions] (https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+[MDN Web Docs Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
 
